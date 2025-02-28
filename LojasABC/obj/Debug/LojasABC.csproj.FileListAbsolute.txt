@@ -8,3 +8,4 @@ C:\Users\flavio.jcjesus\Documents\Visual Studio 2019\TransformeSe\LojasABC\obj\D
 C:\Users\flavio.jcjesus\Documents\Visual Studio 2019\TransformeSe\LojasABC\obj\Debug\LojasABC.exe
 C:\Users\flavio.jcjesus\Documents\Visual Studio 2019\TransformeSe\LojasABC\obj\Debug\LojasABC.pdb
 C:\Users\flavio.jcjesus\Documents\Visual Studio 2019\TransformeSe\LojasABC\obj\Debug\LojasABC.frmSplash.resources
+C:\Users\flavio.jcjesus\Documents\Visual Studio 2019\TransformeSe\LojasABC\obj\Debug\LojasABC.frmLogin.resources

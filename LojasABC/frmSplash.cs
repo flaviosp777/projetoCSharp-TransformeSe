@@ -16,5 +16,15 @@ namespace LojasABC
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmSplash_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
