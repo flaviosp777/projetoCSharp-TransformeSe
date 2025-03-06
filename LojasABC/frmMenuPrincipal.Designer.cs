@@ -161,7 +161,7 @@ namespace LojasABC
             this.button9.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button9.Location = new System.Drawing.Point(614, 513);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(173, 60);
+            this.button9.Size = new System.Drawing.Size(162, 40);
             this.button9.TabIndex = 8;
             this.button9.Text = "&Voltar";
             this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
