@@ -74,7 +74,9 @@ namespace LojasABC
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+            frmFuncionarios abrir = new frmFuncionarios();
+            abrir.Show();
+            this.Hide();
         }
     }
 }

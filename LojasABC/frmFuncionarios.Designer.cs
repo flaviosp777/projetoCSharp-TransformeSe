@@ -48,7 +48,7 @@ namespace LojasABC
             this.lblCódigo = new System.Windows.Forms.Label();
             this.txtCódigo = new System.Windows.Forms.TextBox();
             this.pnlButtons = new System.Windows.Forms.Panel();
-            this.btnVoltar = new System.Windows.Forms.Button();
+            this.btn_Voltar = new System.Windows.Forms.Button();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
@@ -250,7 +250,7 @@ namespace LojasABC
             // 
             // pnlButtons
             // 
-            this.pnlButtons.Controls.Add(this.btnVoltar);
+            this.pnlButtons.Controls.Add(this.btn_Voltar);
             this.pnlButtons.Controls.Add(this.btnPesquisar);
             this.pnlButtons.Controls.Add(this.btnLimpar);
             this.pnlButtons.Controls.Add(this.btnExcluir);
@@ -262,19 +262,19 @@ namespace LojasABC
             this.pnlButtons.Size = new System.Drawing.Size(761, 77);
             this.pnlButtons.TabIndex = 19;
             // 
-            // btnVoltar
+            // btn_Voltar
             // 
-            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
-            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnVoltar.Location = new System.Drawing.Point(653, 18);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(90, 50);
-            this.btnVoltar.TabIndex = 26;
-            this.btnVoltar.Text = "&Voltar";
-            this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnVoltar.UseVisualStyleBackColor = true;
-            this.btnVoltar.Click += new System.EventHandler(this.button8_Click);
+            this.btn_Voltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Voltar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Voltar.Image")));
+            this.btn_Voltar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_Voltar.Location = new System.Drawing.Point(653, 18);
+            this.btn_Voltar.Name = "btn_Voltar";
+            this.btn_Voltar.Size = new System.Drawing.Size(90, 50);
+            this.btn_Voltar.TabIndex = 26;
+            this.btn_Voltar.Text = "&Voltar";
+            this.btn_Voltar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_Voltar.UseVisualStyleBackColor = true;
+            this.btn_Voltar.Click += new System.EventHandler(this.button8_Click);
             // 
             // btnPesquisar
             // 
@@ -615,7 +615,7 @@ namespace LojasABC
         private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.MaskedTextBox mskCEP;
         private System.Windows.Forms.Label lblCEP;
-        private System.Windows.Forms.Button btnVoltar;
+        private System.Windows.Forms.Button btn_Voltar;
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnExcluir;

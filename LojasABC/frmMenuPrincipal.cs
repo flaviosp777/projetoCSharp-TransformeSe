@@ -22,14 +22,30 @@ namespace LojasABC
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btn_voltar(object sender, EventArgs e)
         {
+            frmLogin abrir = new frmLogin();
+            abrir.Show();
+            this.Hide();
+        }
 
+        private void btn_voltar2_Click(object sender, EventArgs e)
+        {
+            frmLogin abrir = new frmLogin();
+            abrir.Show();
+            this.Hide();
+        }
+
+        private void btn_funcionarios_Click(object sender, EventArgs e)
+        {
+            frmFuncionarios abri = new frmFuncionarios();
+            abri.Show();
+            this.Hide();
         }
     }
 }
