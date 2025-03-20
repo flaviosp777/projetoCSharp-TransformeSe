@@ -12,3 +12,4 @@ C:\Users\flavio.jcjesus\Documents\Visual Studio 2019\TransformeSe\LojasABC\obj\D
 C:\Users\flavio.jcjesus\Documents\Visual Studio 2019\TransformeSe\LojasABC\obj\Debug\LojasABC.frmMenuPrincipal.resources
 C:\Users\flavio.jcjesus\Documents\Visual Studio 2019\TransformeSe\LojasABC\obj\Debug\LojasABC.frmFuncionarios.resources
 C:\Users\flavio.jcjesus\Documents\Visual Studio 2019\TransformeSe\LojasABC\obj\Debug\LojasABC.frmPesquisarFuncionario.resources
+C:\Users\flavio.jcjesus\Documents\Visual Studio 2019\TransformeSe\LojasABC\obj\Debug\LojasABC.frmSobreNos.resources

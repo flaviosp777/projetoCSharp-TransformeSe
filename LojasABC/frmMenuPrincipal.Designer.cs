@@ -156,12 +156,19 @@ namespace LojasABC
             // 
             // btn_voltar2
             // 
+            this.btn_voltar2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_voltar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_voltar2.ForeColor = System.Drawing.Color.Black;
+            this.btn_voltar2.Image = ((System.Drawing.Image)(resources.GetObject("btn_voltar2.Image")));
+            this.btn_voltar2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_voltar2.Location = new System.Drawing.Point(670, 516);
             this.btn_voltar2.Name = "btn_voltar2";
             this.btn_voltar2.Size = new System.Drawing.Size(106, 37);
             this.btn_voltar2.TabIndex = 8;
-            this.btn_voltar2.Text = "button1";
-            this.btn_voltar2.UseVisualStyleBackColor = true;
+            this.btn_voltar2.Text = "&Voltar";
+            this.btn_voltar2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_voltar2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_voltar2.UseVisualStyleBackColor = false;
             this.btn_voltar2.Click += new System.EventHandler(this.btn_voltar2_Click);
             // 
             // frmMenuPrincipal
@@ -184,6 +191,7 @@ namespace LojasABC
             this.Name = "frmMenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LojaABC - Menu Principal";
+            this.Load += new System.EventHandler(this.frmMenuPrincipal_Load);
             this.ResumeLayout(false);
 
         }
