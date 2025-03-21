@@ -80,6 +80,8 @@ namespace LojasABC
                 MessageBox.Show("Cadastrado com sucesso!!!");
                 LimpararCampos();
                 desabilitarCampos();
+                btnNovo.Enabled = true;
+                btnNovo.Focus();
             }
         }
 
@@ -95,14 +97,15 @@ namespace LojasABC
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            //executando limpar dados
+            LimpararCampos();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             {
                 frmPesquisarFuncionario abrir = new frmPesquisarFuncionario();
-                abrir.Show();
+                abrir.ShowDialog();
                 this.Hide();
             }
         }
@@ -194,7 +197,7 @@ namespace LojasABC
             mskCEP.Clear();
             txbCidade.Clear();
             txbCidade.Clear();
-            cbbUF.Items.Clear();
+            cbbUF.Text = "";
             txbComplemento.Clear();
 
             txtNome.Focus();

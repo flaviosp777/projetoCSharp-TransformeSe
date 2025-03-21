@@ -31,10 +31,10 @@ namespace LojasABC
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPesquisarFuncionario));
             this.gpbPesquisarPor = new System.Windows.Forms.GroupBox();
-            this.rbtCodigo = new System.Windows.Forms.RadioButton();
-            this.rbtNome = new System.Windows.Forms.RadioButton();
-            this.lblDescricao = new System.Windows.Forms.Label();
             this.txbDescricao = new System.Windows.Forms.TextBox();
+            this.lblDescricao = new System.Windows.Forms.Label();
+            this.rbtNome = new System.Windows.Forms.RadioButton();
+            this.rbtCodigo = new System.Windows.Forms.RadioButton();
             this.ltbPesquisar = new System.Windows.Forms.ListBox();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
@@ -55,16 +55,22 @@ namespace LojasABC
             this.gpbPesquisarPor.TabStop = false;
             this.gpbPesquisarPor.Text = "Pesquisa por";
             // 
-            // rbtCodigo
+            // txbDescricao
             // 
-            this.rbtCodigo.AutoSize = true;
-            this.rbtCodigo.Location = new System.Drawing.Point(119, 35);
-            this.rbtCodigo.Name = "rbtCodigo";
-            this.rbtCodigo.Size = new System.Drawing.Size(77, 24);
-            this.rbtCodigo.TabIndex = 1;
-            this.rbtCodigo.TabStop = true;
-            this.rbtCodigo.Text = "Código";
-            this.rbtCodigo.UseVisualStyleBackColor = true;
+            this.txbDescricao.Location = new System.Drawing.Point(105, 65);
+            this.txbDescricao.MaxLength = 100;
+            this.txbDescricao.Name = "txbDescricao";
+            this.txbDescricao.Size = new System.Drawing.Size(347, 26);
+            this.txbDescricao.TabIndex = 3;
+            // 
+            // lblDescricao
+            // 
+            this.lblDescricao.AutoSize = true;
+            this.lblDescricao.Location = new System.Drawing.Point(19, 68);
+            this.lblDescricao.Name = "lblDescricao";
+            this.lblDescricao.Size = new System.Drawing.Size(80, 20);
+            this.lblDescricao.TabIndex = 2;
+            this.lblDescricao.Text = "Descrição";
             // 
             // rbtNome
             // 
@@ -77,22 +83,16 @@ namespace LojasABC
             this.rbtNome.Text = "Nome";
             this.rbtNome.UseVisualStyleBackColor = true;
             // 
-            // lblDescricao
+            // rbtCodigo
             // 
-            this.lblDescricao.AutoSize = true;
-            this.lblDescricao.Location = new System.Drawing.Point(19, 68);
-            this.lblDescricao.Name = "lblDescricao";
-            this.lblDescricao.Size = new System.Drawing.Size(80, 20);
-            this.lblDescricao.TabIndex = 2;
-            this.lblDescricao.Text = "Descrição";
-            // 
-            // txbDescricao
-            // 
-            this.txbDescricao.Location = new System.Drawing.Point(105, 65);
-            this.txbDescricao.MaxLength = 100;
-            this.txbDescricao.Name = "txbDescricao";
-            this.txbDescricao.Size = new System.Drawing.Size(347, 26);
-            this.txbDescricao.TabIndex = 3;
+            this.rbtCodigo.AutoSize = true;
+            this.rbtCodigo.Location = new System.Drawing.Point(119, 35);
+            this.rbtCodigo.Name = "rbtCodigo";
+            this.rbtCodigo.Size = new System.Drawing.Size(77, 24);
+            this.rbtCodigo.TabIndex = 1;
+            this.rbtCodigo.TabStop = true;
+            this.rbtCodigo.Text = "Código";
+            this.rbtCodigo.UseVisualStyleBackColor = true;
             // 
             // ltbPesquisar
             // 
@@ -117,6 +117,7 @@ namespace LojasABC
             this.btnPesquisar.Text = "&Pesquisar";
             this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // btnLimpar
             // 
@@ -131,6 +132,7 @@ namespace LojasABC
             this.btnLimpar.Text = "&Limpar";
             this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // frmPesquisarFuncionario
             // 

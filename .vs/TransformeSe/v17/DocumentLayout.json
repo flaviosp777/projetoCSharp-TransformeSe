@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA6CBBAF-FC39-4CAA-B5B3-9EA3F77641FA}|LojasABC\\LojasABC.csproj|c:\\users\\flavio.jcjesus\\documents\\visual studio 2019\\transformese\\lojasabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CA6CBBAF-FC39-4CAA-B5B3-9EA3F77641FA}|LojasABC\\LojasABC.csproj|solutionrelative:lojasabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3AC8F592-C7BE-407A-B74C-AC33427F1B3E}|Calculadora\\Calculadora.csproj|c:\\users\\flavio.jcjesus\\documents\\visual studio 2019\\transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3AC8F592-C7BE-407A-B74C-AC33427F1B3E}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA6CBBAF-FC39-4CAA-B5B3-9EA3F77641FA}|LojasABC\\LojasABC.csproj|c:\\users\\flavio.jcjesus\\documents\\visual studio 2019\\transformese\\lojasabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6CBBAF-FC39-4CAA-B5B3-9EA3F77641FA}|LojasABC\\LojasABC.csproj|solutionrelative:lojasabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA6CBBAF-FC39-4CAA-B5B3-9EA3F77641FA}|LojasABC\\LojasABC.csproj|C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\lojasabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA6CBBAF-FC39-4CAA-B5B3-9EA3F77641FA}|LojasABC\\LojasABC.csproj|solutionrelative:lojasabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AC8F592-C7BE-407A-B74C-AC33427F1B3E}|Calculadora\\Calculadora.csproj|c:\\users\\flavio.jcjesus\\documents\\visual studio 2019\\transformese\\calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AC8F592-C7BE-407A-B74C-AC33427F1B3E}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmFuncionarios.cs",
-              "DocumentMoniker": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\LojasABC\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "LojasABC\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\LojasABC\\frmFuncionarios.cs",
-              "RelativeToolTip": "LojasABC\\frmFuncionarios.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGkAAAAcAAAAAAAAAA==",
+              "Title": "frmCalculadora.cs",
+              "DocumentMoniker": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\Calculadora\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\Calculadora\\frmCalculadora.cs",
+              "RelativeToolTip": "Calculadora\\frmCalculadora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T19:48:49.024Z",
+              "WhenOpened": "2025-03-21T20:05:19.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmFuncionarios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\LojasABC\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "LojasABC\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\LojasABC\\frmFuncionarios.cs [Design]",
-              "RelativeToolTip": "LojasABC\\frmFuncionarios.cs [Design]",
+              "Title": "frmCalculadora.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\Calculadora\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Calculadora\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\Calculadora\\frmCalculadora.cs [Design]",
+              "RelativeToolTip": "Calculadora\\frmCalculadora.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T18:47:35.637Z",
+              "WhenOpened": "2025-03-21T19:47:06.099Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\LojasABC\\Program.cs",
-              "RelativeDocumentMoniker": "LojasABC\\Program.cs",
-              "ToolTip": "C:\\Users\\flavio.jcjesus\\Documents\\Visual Studio 2019\\TransformeSe\\LojasABC\\Program.cs",
-              "RelativeToolTip": "LojasABC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T17:03:06.094Z",
-              "EditorCaption": ""
             }
           ]
         }
